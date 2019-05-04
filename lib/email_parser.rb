@@ -9,7 +9,7 @@ class EmailParser
   def initialize(string)
     email = string.split(/,\s|\s/)
     email.each do |emails|
-      if @@all.detect(emails) == false
+      if @@all.include?(emails) == false
         @@all << self
       end
     end
