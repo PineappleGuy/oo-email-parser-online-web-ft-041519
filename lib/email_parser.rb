@@ -4,8 +4,10 @@
 # or whitespace (' ').
 class EmailParser
 
-  def parse(string)
+  def initialize(string)
     email = string.split(/,\s/)
     puts email
+end
+  def parse(string)
   end
 end
