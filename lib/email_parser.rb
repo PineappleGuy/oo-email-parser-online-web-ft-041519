@@ -6,6 +6,6 @@ class EmailParser
 
   def initialize(string)
     email = string.split(/,\s|\s/)
-    puts string
+    puts email
   end
 end
