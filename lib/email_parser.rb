@@ -8,5 +8,5 @@ class EmailParser
     email = string.split(/,\s/)
     puts string
   end
-
+puts string
 end
