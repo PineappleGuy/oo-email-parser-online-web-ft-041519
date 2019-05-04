@@ -8,4 +8,8 @@ class EmailParser
     email = string.split(/,\s|\s/)
     puts email
   end
+
+  def parse
+
+  end
 end
