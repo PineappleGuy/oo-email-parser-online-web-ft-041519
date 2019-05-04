@@ -10,7 +10,7 @@ class EmailParser
     email = string.split(/,\s|\s/)
     email.each do |emails|
       if @@all.detect(emails) == false
-        @@all << emails
+        @@all << self
       end
     end
   end
