@@ -12,6 +12,7 @@ class EmailParser
       if @@all.detect(email) == false
         @@all << email
       end
+    end
   end
 
   def parse
