@@ -4,12 +4,14 @@
 # or whitespace (' ').
 class EmailParser
 
+  @@all = []
+
   def initialize(string)
     email = string.split(/,\s|\s/)
-    puts email
+    @@all << email
   end
 
   def parse
-
+    @@all
   end
 end
