@@ -8,9 +8,9 @@ class EmailParser
 
   def initialize(string)
     email = string.split(/,\s|\s/)
-    email.each do |email|
-      if @@all.detect(email) == false
-        @@all << email
+    email.each do |emails|
+      if @@all.detect(emails) == false
+        @@all << emails
       end
     end
   end
