@@ -5,7 +5,7 @@
 class EmailParser
 
   def initialize(string)
-    email = string.split(/,\s/)
+    email = string.split(/,\s|\s/)
     puts string
   end
 end
