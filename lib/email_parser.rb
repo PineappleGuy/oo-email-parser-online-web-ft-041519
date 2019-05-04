@@ -7,6 +7,7 @@ class EmailParser
   @@all = []
 
   def initialize(string)
+    @@all.clear
     email = string.split(/,\s|\s/)
     email.each do |emails|
       if @@all.include?(emails) == false
